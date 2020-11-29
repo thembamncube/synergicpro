@@ -17,6 +17,9 @@ position: absolute;
     height: 100%;
    background-color: #1D2729;
    opacity: 95%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 
 }
 .textBorder{
@@ -81,20 +84,20 @@ left: 5%;
 top: 20%;
 }
 .bottom2{
-    width: 38%;
-    height: 35%;
+    width: 45%;
+    height: 33%;
     //border-style: solid;
     position: absolute;
-    right: 5%;
+    right: 3%;
     top: 20%;
     }
 
     .bottom3{
-        width: 38%;
+      width: 45%;
         height: 35%;
         //border-style: solid;
         position: absolute;
-        right: 5%;
+        right: 3%;
         top:55%;
         }
         .bottomText{

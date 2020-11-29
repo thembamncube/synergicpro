@@ -35,6 +35,28 @@ const routes: Routes = [
     path: 'signup',
     loadChildren: () => import('./pages/signup/signup.module').then( m => m.SignupPageModule)
   },
+  {
+    path: 'new-bookings',
+    loadChildren: () => import('./pages/new-bookings/new-bookings.module').then( m => m.NewBookingsPageModule)
+  },
+  {
+    path: 'manage-spaces',
+    loadChildren: () => import('./pages/manage-spaces/manage-spaces.module').then( m => m.ManageSpacesPageModule)
+  },
+  {
+    path: 'profile',
+    loadChildren: () => import('./pages/profile/profile.module').then( m => m.ProfilePageModule)
+  },  {
+    path: 'add-space-modal',
+    loadChildren: () => import('./pages/add-space-modal/add-space-modal.module').then( m => m.AddSpaceModalPageModule)
+  },
+  {
+    path: 'add-profile-modal',
+    loadChildren: () => import('./pages/add-profile-modal/add-profile-modal.module').then( m => m.AddProfileModalPageModule)
+  },
+
+  
+
 ];
 
 @NgModule({
